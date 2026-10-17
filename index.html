@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="es-CO">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Ensaladas Danny · Ensaladas de frutas a tu gusto en Cali y Yumbo</title>
+  <meta name="description" content="Ensaladas de frutas que armas a tu gusto, con aderezos de fruta que no empalagan. Pídela fácil por WhatsApp en Cali y Yumbo.">
+  <meta name="theme-color" content="#1f4228">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ensaladas Danny · Naturalmente a tu gusto">
+  <meta property="og:description" content="Ensaladas de frutas que armas a tu gusto. Cali y Yumbo.">
+  <meta property="og:image" content="img/og-image.jpg">
+  <meta property="og:locale" content="es_CO">
+  <link rel="icon" href="img/favicon-48.png" sizes="48x48" type="image/png">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="img/danny-hero-1200.webp" imagesrcset="img/danny-hero-600.webp 600w, img/danny-hero-1200.webp 1200w" imagesizes="(min-width: 960px) 46vw, 100vw">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+
+  <!-- Aviso de prototipo: se oculta automáticamente cuando CONFIG.demo = false (app.js) -->
+  <p class="demo-banner" data-demo-only>Prototipo académico. Los botones de pedido y redes muestran una demostración y no contactan a nadie.</p>
+
+  <header class="site-header" id="top">
+    <div class="wrap header-inner">
+      <a class="brand" href="#inicio" aria-label="Ensaladas Danny, ir al inicio">
+        <img src="img/logo-240.webp" alt="" width="44" height="44">
+        <span class="brand-name">Ensaladas <strong>Danny</strong></span>
+      </a>
+      <nav class="nav" aria-label="Principal">
+        <a href="#ensaladas">Ensaladas</a>
+        <a href="#arma">Arma la tuya</a>
+        <a href="#como-pedir">Cómo pedir</a>
+        <a href="#preguntas">Preguntas</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn js-social" type="button" data-red="instagram" aria-label="Instagram de Ensaladas Danny">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r="1.1" class="fill"/></svg>
+        </button>
+        <button class="icon-btn js-social" type="button" data-red="tiktok" aria-label="TikTok de Ensaladas Danny">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3v11.5a3.5 3.5 0 1 1-3.5-3.5"/><path d="M14 3c.4 2.6 2.2 4.4 5 4.6"/></svg>
+        </button>
+        <button class="btn btn-sm js-pedir" type="button">Pedir</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <!-- Inicio -->
+    <section id="inicio" class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="dot" aria-hidden="true"></span> Ensaladas de frutas · Cali y Yumbo</p>
+          <h1>Naturalmente <em>a tu gusto</em></h1>
+          <p class="lead">Ensaladas de frutas que armas como te gusta, con aderezos de fruta que no empalagan. La pides en un minuto desde tu celular.</p>
+          <div class="hero-actions">
+            <a class="btn btn-lg" href="#arma">Arma tu ensalada</a>
+            <button class="btn btn-lg btn-ghost js-pedir" type="button">
+              <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20l1.3-3.9A8 8 0 1 1 8 19.2z"/></svg>
+              Pedir por WhatsApp
+            </button>
+          </div>
+          <ul class="hero-points">
+            <li>Tú eliges las frutas</li>
+            <li>Aderezos de fruta</li>
+            <li>Domicilio en Cali y Yumbo</li>
+          </ul>
+        </div>
+        <div class="hero-media">
+          <picture>
+            <source type="image/webp" srcset="img/danny-hero-600.webp 600w, img/danny-hero-1200.webp 1200w" sizes="(min-width: 960px) 46vw, 100vw">
+            <img src="img/danny-hero-1200.jpg" width="1200" height="1639" alt="Ensalada de frutas de Ensaladas Danny en su recipiente con el sticker de la marca, con un hilo de salsa roja cayendo sobre la porción" fetchpriority="high">
+          </picture>
+          <div class="hero-badge" aria-hidden="true">
+            <img src="img/logo-240.webp" alt="" width="64" height="64">
+            <span><strong>Hecha a tu gusto</strong>Cada pedido se prepara según lo que nos pidas</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Franja de valores -->
+    <section class="values" aria-label="Lo que nos diferencia">
+      <ul class="wrap values-list">
+        <li><span class="v-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h10M4 17h6"/><circle cx="18" cy="16" r="3"/></svg></span><div><strong>La armas a tu gusto</strong><span>Dinos qué frutas quieres y cuáles no.</span></div></li>
+        <li><span class="v-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3c3 4.2 6 7.3 6 11a6 6 0 0 1-12 0c0-3.7 3-6.8 6-11z"/></svg></span><div><strong>Aderezos que no empalagan</strong><span>Hechos de fruta, no tapan el sabor.</span></div></li>
+        <li><span class="v-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/></svg></span><div><strong>Hablas con quien la prepara</strong><span>Atención directa, sin aplicaciones.</span></div></li>
+      </ul>
+    </section>
+
+    <!-- Ensaladas -->
+    <section id="ensaladas" class="section">
+      <div class="wrap">
+        <header class="section-head">
+          <p class="kicker">Para empezar</p>
+          <h2>Tres ideas, mil combinaciones</h2>
+          <p>Escoge una idea como punto de partida y ajústala a tu gusto. Las frutas cambian según la temporada, así que al pedir te confirmamos opciones y precio.</p>
+        </header>
+        <ul class="cards">
+          <li class="card">
+            <picture>
+              <source type="image/webp" srcset="img/detalle-banano-600.webp 600w, img/detalle-banano-1200.webp 1200w" sizes="(min-width: 900px) 33vw, (min-width: 640px) 50vw, 100vw">
+              <img src="img/detalle-banano-600.jpg" width="600" height="772" loading="lazy" alt="Primer plano de una ensalada de frutas con rodajas de banano">
+            </picture>
+            <div class="card-body">
+              <h3>Tropical</h3>
+              <p>Bien frutal y dulce por la misma fruta. Para cuando quieres algo fresco a media mañana.</p>
+              <button class="btn btn-outline js-elegir" type="button" data-idea="Tropical">Quiero esta</button>
+            </div>
+          </li>
+          <li class="card">
+            <picture>
+              <source type="image/webp" srcset="img/danny-sticker-600.webp 600w, img/danny-sticker-1200.webp 1200w" sizes="(min-width: 900px) 33vw, (min-width: 640px) 50vw, 100vw">
+              <img src="img/danny-sticker-600.jpg" width="600" height="949" loading="lazy" alt="Recipiente de Ensaladas Danny con una ensalada de textura cremosa y el sticker de la marca">
+            </picture>
+            <div class="card-body">
+              <h3>Cremosa</h3>
+              <p>Con más aderezo de fruta. La favorita para el antojo de la tarde.</p>
+              <button class="btn btn-outline js-elegir" type="button" data-idea="Cremosa">Quiero esta</button>
+            </div>
+          </li>
+          <li class="card">
+            <picture>
+              <source type="image/webp" srcset="img/detalle-fresa-600.webp 600w, img/detalle-fresa-1200.webp 1200w" sizes="(min-width: 900px) 33vw, (min-width: 640px) 50vw, 100vw">
+              <img src="img/detalle-fresa-600.jpg" width="600" height="800" loading="lazy" alt="Primer plano de una ensalada de frutas con trozos de fresa">
+            </picture>
+            <div class="card-body">
+              <h3>A tu manera</h3>
+              <p>Tú nos dices qué frutas te gustan y cuáles prefieres dejar por fuera. Nosotros la armamos.</p>
+              <button class="btn btn-outline js-elegir" type="button" data-idea="A tu manera">Quiero esta</button>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Arma la tuya -->
+    <section id="arma" class="section section-dark">
+      <div class="wrap arma-grid">
+        <div class="arma-video">
+          <p class="kicker">Míralo en 25 segundos</p>
+          <h2>Así armas tu ensalada</h2>
+          <figure class="video-frame">
+            <video controls muted playsinline preload="none" poster="video/arma-tu-ensalada-poster.jpg" width="720" height="720" aria-describedby="video-desc">
+              <source src="video/arma-tu-ensalada.mp4" type="video/mp4">
+              Tu navegador no puede reproducir el video.
+            </video>
+            <figcaption id="video-desc">Video sin audio. Muestra los cuatro pasos: elegir una idea, decidir el aderezo, contar tus gustos y enviar el pedido por WhatsApp.</figcaption>
+          </figure>
+        </div>
+
+        <div class="arma-panel">
+          <form id="armador" class="armador" novalidate>
+            <fieldset>
+              <legend><span class="step">1</span> Elige una idea</legend>
+              <div class="choices">
+                <label class="choice"><input type="radio" name="idea" value="Tropical" checked><span>Tropical</span></label>
+                <label class="choice"><input type="radio" name="idea" value="Cremosa"><span>Cremosa</span></label>
+                <label class="choice"><input type="radio" name="idea" value="A tu manera"><span>A tu manera</span></label>
+              </div>
+            </fieldset>
+            <fieldset>
+              <legend><span class="step">2</span> ¿Con aderezo de fruta?</legend>
+              <div class="choices">
+                <label class="choice"><input type="radio" name="aderezo" value="con aderezo de fruta" checked><span>Sí, con aderezo</span></label>
+                <label class="choice"><input type="radio" name="aderezo" value="sin aderezo"><span>Sin aderezo</span></label>
+              </div>
+            </fieldset>
+            <div class="field">
+              <label for="gustos"><span class="step">3</span> Cuéntanos tus gustos</label>
+              <input id="gustos" name="gustos" type="text" maxlength="120" placeholder="Ej.: sin banano, más fresa" aria-describedby="gustos-ayuda" autocomplete="off">
+              <p id="gustos-ayuda" class="hint">Solo tus gustos. Tus datos de entrega los pedimos en el chat.</p>
+            </div>
+          </form>
+          <div class="preview">
+            <p class="preview-title"><span class="step">4</span> Tu mensaje está listo</p>
+            <p id="mensaje" class="bubble" aria-live="polite"></p>
+            <button class="btn btn-block btn-wa js-pedir" type="button" data-con-mensaje="1">
+              <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20l1.3-3.9A8 8 0 1 1 8 19.2z"/></svg>
+              Enviar por WhatsApp
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cómo pedir -->
+    <section id="como-pedir" class="section">
+      <div class="wrap">
+        <header class="section-head center">
+          <p class="kicker">Sin complicaciones</p>
+          <h2>Pedir es así de fácil</h2>
+        </header>
+        <ol class="steps">
+          <li><span class="step-num" aria-hidden="true">01</span><h3>Elige</h3><p>Una de nuestras ideas o la tuya propia, con o sin aderezo.</p></li>
+          <li><span class="step-num" aria-hidden="true">02</span><h3>Confirma por WhatsApp</h3><p>Te respondemos con las frutas del día, el precio y el costo del domicilio a tu dirección.</p></li>
+          <li><span class="step-num" aria-hidden="true">03</span><h3>Recíbela</h3><p>Te la llevamos en Cali o Yumbo. La cobertura exacta se confirma en el chat.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Redes sociales -->
+    <section id="redes" class="section section-cream">
+      <div class="wrap">
+        <header class="section-head split">
+          <div>
+            <p class="kicker">Síguenos</p>
+            <h2>Antojos todos los días</h2>
+            <p>En nuestras redes publicamos las frutas de temporada, combinaciones nuevas y los pedidos que van saliendo.</p>
+          </div>
+          <div class="social-buttons">
+            <button class="btn btn-outline js-social" type="button" data-red="instagram">
+              <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r="1.1" class="fill"/></svg>
+              Instagram
+            </button>
+            <button class="btn btn-outline js-social" type="button" data-red="tiktok">
+              <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3v11.5a3.5 3.5 0 1 1-3.5-3.5"/><path d="M14 3c.4 2.6 2.2 4.4 5 4.6"/></svg>
+              TikTok
+            </button>
+          </div>
+        </header>
+        <ul class="feed">
+          <li><button class="feed-item js-social" type="button" data-red="instagram" aria-label="Ver publicación en Instagram"><img src="img/danny-mano-600.webp" width="600" height="702" loading="lazy" alt="Mano sosteniendo una ensalada de Ensaladas Danny frente a una vitrina"></button></li>
+          <li><button class="feed-item js-social" type="button" data-red="tiktok" aria-label="Ver video en TikTok"><img src="img/detalle-fresa-600.webp" width="600" height="800" loading="lazy" alt="Detalle de fresas sobre una ensalada"><span class="play" aria-hidden="true">▶</span></button></li>
+          <li><button class="feed-item js-social" type="button" data-red="instagram" aria-label="Ver publicación en Instagram"><img src="img/danny-hero-600.webp" width="600" height="819" loading="lazy" alt="Ensalada de Ensaladas Danny al aire libre"></button></li>
+          <li><button class="feed-item js-social" type="button" data-red="instagram" aria-label="Ver publicación en Instagram"><img src="img/detalle-banano-600.webp" width="600" height="772" loading="lazy" alt="Detalle de rodajas de banano sobre una ensalada"></button></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Preguntas -->
+    <section id="preguntas" class="section">
+      <div class="wrap faq-grid">
+        <header class="section-head">
+          <p class="kicker">Antes de pedir</p>
+          <h2>Preguntas frecuentes</h2>
+          <p>¿No encuentras tu respuesta? Escríbenos y te contestamos.</p>
+          <button class="btn btn-outline js-pedir" type="button">Escribir por WhatsApp</button>
+        </header>
+        <div class="faq">
+          <details><summary>¿A dónde llevan las ensaladas?</summary><p>Atendemos en Cali y Yumbo. Escríbenos con tu barrio y te confirmamos si llegamos y cuánto cuesta el domicilio.</p></details>
+          <details><summary>¿Cuánto cuesta una ensalada?</summary><p>El precio depende de la combinación y se confirma en el chat antes de que pagues. Así no te llevas sorpresas al final.</p></details>
+          <details><summary>¿Puedo cambiar las frutas?</summary><p>Sí. Dinos qué te gusta y qué no, y la armamos con la fruta disponible ese día.</p></details>
+          <details><summary>¿Los aderezos son muy dulces?</summary><p>No. Son aderezos de fruta pensados para acompañar, no para tapar el sabor de la fruta.</p></details>
+          <details><summary>¿Con cuánta anticipación debo pedir?</summary><p>Depende del día y de la cantidad. Escríbenos y te decimos el tiempo de entrega.</p></details>
+          <details><summary>¿Cómo la conservo?</summary><p>Lo mejor es comerla pronto. Si vas a esperar, mantenla en la nevera.</p></details>
+          <details data-demo-only><summary>¿Este sitio recibe pedidos reales?</summary><p>Todavía no. Es el prototipo del sitio de Ensaladas Danny, desarrollado como proyecto académico. Los botones muestran una demostración.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cierre -->
+    <section class="cta-final">
+      <picture>
+        <source type="image/webp" srcset="img/danny-mano-1200.webp">
+        <img src="img/danny-mano-1200.jpg" width="1200" height="1403" loading="lazy" alt="">
+      </picture>
+      <div class="wrap cta-inner">
+        <h2>¿Se te antojó?</h2>
+        <p>Escríbenos y armamos tu ensalada.</p>
+        <button class="btn btn-lg btn-light js-pedir" type="button">
+          <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20l1.3-3.9A8 8 0 1 1 8 19.2z"/></svg>
+          Pedir por WhatsApp
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div class="footer-brand">
+        <img src="img/logo-240.webp" alt="Logo de Ensaladas Danny" width="72" height="72" loading="lazy">
+        <p><strong>Ensaladas Danny</strong><br>Ensaladas de frutas a tu gusto.<br>Cali y Yumbo, Valle del Cauca.</p>
+      </div>
+      <nav aria-label="Pie de página">
+        <p class="footer-title">Explora</p>
+        <a href="#ensaladas">Ensaladas</a>
+        <a href="#arma">Arma la tuya</a>
+        <a href="#como-pedir">Cómo pedir</a>
+        <a href="#preguntas">Preguntas</a>
+      </nav>
+      <div>
+        <p class="footer-title">Contacto y redes</p>
+        <div class="footer-social">
+          <button class="icon-btn js-pedir" type="button" aria-label="WhatsApp de Ensaladas Danny"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20l1.3-3.9A8 8 0 1 1 8 19.2z"/></svg></button>
+          <button class="icon-btn js-social" type="button" data-red="instagram" aria-label="Instagram de Ensaladas Danny"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r="1.1" class="fill"/></svg></button>
+          <button class="icon-btn js-social" type="button" data-red="tiktok" aria-label="TikTok de Ensaladas Danny"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3v11.5a3.5 3.5 0 1 1-3.5-3.5"/><path d="M14 3c.4 2.6 2.2 4.4 5 4.6"/></svg></button>
+        </div>
+      </div>
+    </div>
+    <div class="wrap footer-legal" data-demo-only>
+      <p>Prototipo desarrollado en la Electiva II: IA aplicada a los negocios, Programa de Mercadeo, Fundación Universitaria Católica Lumen Gentium, 2026. Fotografías de referencia cedidas por un emprendimiento aliado para este prototipo. Los canales de contacto son de demostración.</p>
+    </div>
+  </footer>
+
+  <div class="sticky-cta">
+    <button class="btn btn-block btn-wa js-pedir" type="button">
+      <svg class="i" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20l1.3-3.9A8 8 0 1 1 8 19.2z"/></svg>
+      Pedir por WhatsApp
+    </button>
+  </div>
+
+  <dialog id="demo" aria-labelledby="demo-title">
+    <img src="img/logo-240.webp" alt="" width="56" height="56">
+    <h2 id="demo-title">Esto es una demostración</h2>
+    <p id="demo-texto"></p>
+    <p id="demo-mensaje" class="bubble" hidden></p>
+    <form method="dialog"><button class="btn btn-block" type="submit">Entendido</button></form>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>
